@@ -8,7 +8,8 @@ function regresaMiContextoEnModoEstricto(){
     'use strict';
     return this;
 }
-console.log(regresaMiContexto());               //regresara el objeto 'window' en el browser o 'global' en NodeJS
+console.log(regresaMiContexto());               //regresara el objeto 'window' en el browser
+                                                // o 'global' en NodeJS
 console.log(regresaMiContextoEnModoEstricto()); //regresara undefined
 
 
